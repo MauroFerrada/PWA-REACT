@@ -1,12 +1,12 @@
 {
-    "guitarra-1": [
-      {
-        "id": 1,
-        "nombre": "Fender Stratocaster",
-        "tipo": "Eléctrica",
-        "marca": "Fender",
-        "url_foto": "https://example.com/fender_stratocaster.jpg",
-        "descripcion_completa": "La Fender Stratocaster es una de las guitarras eléctricas más icónicas de todos los tiempos. Introducida en 1954, ha sido utilizada por innumerables músicos en una amplia gama de géneros musicales, desde el rock hasta el blues y el pop. Con su diseño de cuerpo sólido, tres pastillas single-coil y un vibrato característico, la Stratocaster ofrece una versatilidad excepcional y un sonido distintivo que ha definido el sonido de la música popular durante décadas."
-      }
-    ]
-  }
+  "guitarra-5": [
+    {
+      "id": 5,
+      "nombre": "Ibanez RG550",
+      "tipo": "Eléctrica",
+      "marca": "Ibanez",
+      "url_foto": "https://example.com/ibanez_rg550.jpg",
+      "descripcion_completa": "La Ibanez RG550 es una guitarra eléctrica de alta gama diseñada para músicos que buscan un rendimiento excepcional y una versatilidad sin igual. Con su cuerpo de tilo, mástil de arce y diapasón de palisandro, la RG550 ofrece una jugabilidad suave y cómoda en todo el mástil. Además, sus pastillas humbucker y single-coil proporcionan una amplia gama de tonos, desde el rock duro hasta el jazz fusión."
+    }
+  ]
+}

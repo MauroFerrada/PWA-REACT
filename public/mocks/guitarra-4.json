@@ -1,12 +1,12 @@
 {
-    "guitarra-1": [
-      {
-        "id": 1,
-        "nombre": "Fender Stratocaster",
-        "tipo": "Eléctrica",
-        "marca": "Fender",
-        "url_foto": "https://example.com/fender_stratocaster.jpg",
-        "descripcion_completa": "La Fender Stratocaster es una de las guitarras eléctricas más icónicas de todos los tiempos. Introducida en 1954, ha sido utilizada por innumerables músicos en una amplia gama de géneros musicales, desde el rock hasta el blues y el pop. Con su diseño de cuerpo sólido, tres pastillas single-coil y un vibrato característico, la Stratocaster ofrece una versatilidad excepcional y un sonido distintivo que ha definido el sonido de la música popular durante décadas."
-      }
-    ]
-  }
+  "guitarra-4": [
+    {
+      "id": 4,
+      "nombre": "Martin D-28",
+      "tipo": "Acústica",
+      "marca": "Martin",
+      "url_foto": "https://example.com/martin_d28.jpg",
+      "descripcion_completa": "La Martin D-28 es una guitarra acústica icónica que ha sido utilizada por músicos de todo el mundo durante décadas. Con su cuerpo de dreadnought y una tapa de abeto sólido, la D-28 produce un tono potente y resonante que es perfecto para una amplia variedad de estilos musicales, desde el bluegrass hasta el folk. Además, su construcción de alta calidad y su atención al detalle hacen que sea una guitarra duradera y fiable que resistirá el paso del tiempo."
+    }
+  ]
+}

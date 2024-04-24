@@ -1,12 +1,12 @@
 {
-    "guitarra-1": [
-      {
-        "id": 1,
-        "nombre": "Fender Stratocaster",
-        "tipo": "Eléctrica",
-        "marca": "Fender",
-        "url_foto": "https://example.com/fender_stratocaster.jpg",
-        "descripcion_completa": "La Fender Stratocaster es una de las guitarras eléctricas más icónicas de todos los tiempos. Introducida en 1954, ha sido utilizada por innumerables músicos en una amplia gama de géneros musicales, desde el rock hasta el blues y el pop. Con su diseño de cuerpo sólido, tres pastillas single-coil y un vibrato característico, la Stratocaster ofrece una versatilidad excepcional y un sonido distintivo que ha definido el sonido de la música popular durante décadas."
-      }
-    ]
-  }
+  "guitarra-2": [
+    {
+      "id": 2,
+      "nombre": "Gibson Les Paul",
+      "tipo": "Eléctrica",
+      "marca": "Gibson",
+      "url_foto": "https://example.com/gibson_les_paul.jpg",
+      "descripcion_completa": "La Gibson Les Paul es una de las guitarras eléctricas más influyentes jamás creadas. Introducida en 1952, se ha convertido en un símbolo del rock 'n' roll y ha sido utilizada por innumerables músicos famosos. Con su cuerpo sólido y pastillas humbucker, la Les Paul ofrece un tono cálido y potente que es perfecto para una amplia variedad de estilos musicales, desde el blues hasta el hard rock."
+    }
+  ]
+}

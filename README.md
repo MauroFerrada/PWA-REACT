@@ -4,7 +4,7 @@
 
 > 
 
-![To-Do_List](/public/todolist.jpg)
+![](/public/)
 
 ## :office: Universidad Nacional del Comahue - Facultad de Informática
 
