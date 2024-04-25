@@ -1,12 +1,18 @@
 import style from './Home.module.css';
-// useState es un Hook de React que te permite agregar una variable de estado a tu componente.
-import { useState } from 'react';
-import Input from '../../components/Input/Input'
-import Button from '../../components/Button/Button'
+import Header from '../../components/Header/Header'
+import Footer from '../../components/Footer/Footer'
 
 const Home = () => {
   return (
-    <h1 className="text-3xl font-bold underline">Hello world!</h1>
+    <div className="h-screen w-full flex flex-col">
+      <Header />
+      <div className="flex-grow bg-emerald-300">
+        <div className="mx-auto flex place-content-center p-8">
+          Body de Home
+        </div>
+      </div>
+      <Footer />
+    </div>
   );
 };
 
