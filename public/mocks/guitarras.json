@@ -1,58 +1,50 @@
-{
-  "guitarras": [
-    {
-      "id": 1,
-      "nombre": "Fender Stratocaster",
-      "tipo": "Eléctrica",
-      "marca": "Fender",
-      "url_foto": "https://example.com/fender_stratocaster.jpg",
-      "breve_descripcion": "La Fender Stratocaster es un icono del rock 'n' roll, conocida por su versatilidad y sonido distintivo.",
-      "descripcion_completa": "La Fender Stratocaster es una de las guitarras eléctricas más icónicas de todos los tiempos. Introducida en 1954, ha sido utilizada por innumerables músicos en una amplia gama de géneros musicales, desde el rock hasta el blues y el pop. Con su diseño de cuerpo sólido, tres pastillas single-coil y un vibrato característico, la Stratocaster ofrece una versatilidad excepcional y un sonido distintivo que ha definido el sonido de la música popular durante décadas."
-    },
-    {
-      "id": 2,
-      "nombre": "Gibson Les Paul",
-      "tipo": "Eléctrica",
-      "marca": "Gibson",
-      "url_foto": "https://example.com/gibson_les_paul.jpg",
-      "breve_descripcion": "La Gibson Les Paul es una guitarra eléctrica emblemática, conocida por su cuerpo sólido y tono cálido.",
-      "descripcion_completa": "La Gibson Les Paul es una de las guitarras eléctricas más influyentes jamás creadas. Introducida en 1952, se ha convertido en un símbolo del rock 'n' roll y ha sido utilizada por innumerables músicos famosos. Con su cuerpo sólido y pastillas humbucker, la Les Paul ofrece un tono cálido y potente que es perfecto para una amplia variedad de estilos musicales, desde el blues hasta el hard rock."
-    },
-    {
-      "id": 3,
-      "nombre": "Taylor 214ce",
-      "tipo": "Acústica",
-      "marca": "Taylor",
-      "url_foto": "https://example.com/taylor_214ce.jpg",
-      "breve_descripcion": "La Taylor 214ce es una guitarra acústica versátil, ideal para actuaciones en vivo y grabaciones.",
-      "descripcion_completa": "La Taylor 214ce es una guitarra acústica de alta calidad que ofrece un tono rico y equilibrado, junto con una excelente jugabilidad. Equipada con una tapa de abeto sólido y aros y fondo de palisandro laminado, la 214ce produce un sonido potente y resonante que es perfecto para una amplia variedad de estilos musicales. Además, su electrónica de calidad profesional permite amplificar fácilmente su sonido en situaciones de actuación en vivo o grabación en estudio."
-    },
-    {
-      "id": 4,
-      "nombre": "Martin D-28",
-      "tipo": "Acústica",
-      "marca": "Martin",
-      "url_foto": "https://example.com/martin_d28.jpg",
-      "breve_descripcion": "La Martin D-28 es una guitarra acústica clásica, conocida por su tono potente y proyección.",
-      "descripcion_completa": "La Martin D-28 es una guitarra acústica icónica que ha sido utilizada por músicos de todo el mundo durante décadas. Con su cuerpo de dreadnought y una tapa de abeto sólido, la D-28 produce un tono potente y resonante que es perfecto para una amplia variedad de estilos musicales, desde el bluegrass hasta el folk. Además, su construcción de alta calidad y su atención al detalle hacen que sea una guitarra duradera y fiable que resistirá el paso del tiempo."
-    },
-    {
-      "id": 5,
-      "nombre": "Ibanez RG550",
-      "tipo": "Eléctrica",
-      "marca": "Ibanez",
-      "url_foto": "https://example.com/ibanez_rg550.jpg",
-      "breve_descripcion": "La Ibanez RG550 es una guitarra eléctrica de alta gama, conocida por su diseño ergonómico y versatilidad.",
-      "descripcion_completa": "La Ibanez RG550 es una guitarra eléctrica de alta gama diseñada para músicos que buscan un rendimiento excepcional y una versatilidad sin igual. Con su cuerpo de tilo, mástil de arce y diapasón de palisandro, la RG550 ofrece una jugabilidad suave y cómoda en todo el mástil. Además, sus pastillas humbucker y single-coil proporcionan una amplia gama de tonos, desde el rock duro hasta el jazz fusión."
-    },
-    {
-      "id": 6,
-      "nombre": "Epiphone Hummingbird",
-      "tipo": "Acústica",
-      "marca": "Epiphone",
-      "url_foto": "https://example.com/epiphone_hummingbird.jpg",
-      "breve_descripcion": "La Epiphone Hummingbird es una guitarra acústica clásica, conocida por su diseño llamativo y tono cálido.",
-      "descripcion_completa": "La Epiphone Hummingbird es una guitarra acústica clásica que ha sido utilizada por músicos de todos los géneros durante décadas. Con su cuerpo de dreadnought y una tapa de abeto sólido, la Hummingbird produce un tono cálido y resonante que es perfecto para tocar en casa o en el escenario. Además, su diseño llamativo y su atención al detalle hacen que sea una guitarra que destaca tanto visual como auditivamente."
-    }
-  ]
-}
+[
+  {
+    "id": 1,
+    "nombre": "Fender Stratocaster",
+    "tipo": "Eléctrica",
+    "marca": "Fender",
+    "imagen": "#1",
+    "descripcion_breve": "La Fender Stratocaster es un icono del rock 'n' roll, conocida por su versatilidad y sonido distintivo."
+  },
+  {
+    "id": 2,
+    "nombre": "Gibson Les Paul",
+    "tipo": "Eléctrica",
+    "marca": "Gibson",
+    "imagen": "#2",
+    "descripcion_breve": "La Gibson Les Paul es una guitarra eléctrica emblemática, conocida por su cuerpo sólido y tono cálido."
+  },
+  {
+    "id": 3,
+    "nombre": "Taylor 214ce",
+    "tipo": "Acústica",
+    "marca": "Taylor",
+    "imagen": "#3",
+    "descripcion_breve": "La Taylor 214ce es una guitarra acústica versátil, ideal para actuaciones en vivo y grabaciones."
+  },
+  {
+    "id": 4,
+    "nombre": "Martin D-28",
+    "tipo": "Acústica",
+    "marca": "Martin",
+    "imagen": "#4",
+    "descripcion_breve": "La Martin D-28 es una guitarra acústica clásica, conocida por su tono potente y proyección."
+  },
+  {
+    "id": 5,
+    "nombre": "Ibanez RG550",
+    "tipo": "Eléctrica",
+    "marca": "Ibanez",
+    "imagen": "#5",
+    "descripcion_breve": "La Ibanez RG550 es una guitarra eléctrica de alta gama, conocida por su diseño ergonómico y versatilidad."
+  },
+  {
+    "id": 6,
+    "nombre": "Epiphone Hummingbird",
+    "tipo": "Acústica",
+    "marca": "Epiphone",
+    "imagen": "#6",
+    "descripcion_breve": "La Epiphone Hummingbird es una guitarra acústica clásica, conocida por su diseño llamativo y tono cálido."
+  }
+]

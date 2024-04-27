@@ -1,12 +1,8 @@
 {
-  "guitarra-3": [
-    {
-      "id": 3,
-      "nombre": "Taylor 214ce",
-      "tipo": "Acústica",
-      "marca": "Taylor",
-      "url_foto": "https://example.com/taylor_214ce.jpg",
-      "descripcion_completa": "La Taylor 214ce es una guitarra acústica de alta calidad que ofrece un tono rico y equilibrado, junto con una excelente jugabilidad. Equipada con una tapa de abeto sólido y aros y fondo de palisandro laminado, la 214ce produce un sonido potente y resonante que es perfecto para una amplia variedad de estilos musicales. Además, su electrónica de calidad profesional permite amplificar fácilmente su sonido en situaciones de actuación en vivo o grabación en estudio."
-    }
-  ]
+  "id": 3,
+  "nombre": "Taylor 214ce",
+  "tipo": "Acústica",
+  "marca": "Taylor",
+  "imagen": "#3",
+  "descripcion_completa": "La Taylor 214ce es una guitarra acústica de alta calidad que ofrece un tono rico y equilibrado, junto con una excelente jugabilidad. Equipada con una tapa de abeto sólido y aros y fondo de palisandro laminado, la 214ce produce un sonido potente y resonante que es perfecto para una amplia variedad de estilos musicales. Además, su electrónica de calidad profesional permite amplificar fácilmente su sonido en situaciones de actuación en vivo o grabación en estudio."
 }

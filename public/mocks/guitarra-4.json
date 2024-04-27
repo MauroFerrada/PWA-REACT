@@ -1,12 +1,8 @@
 {
-  "guitarra-4": [
-    {
-      "id": 4,
-      "nombre": "Martin D-28",
-      "tipo": "Acústica",
-      "marca": "Martin",
-      "url_foto": "https://example.com/martin_d28.jpg",
-      "descripcion_completa": "La Martin D-28 es una guitarra acústica icónica que ha sido utilizada por músicos de todo el mundo durante décadas. Con su cuerpo de dreadnought y una tapa de abeto sólido, la D-28 produce un tono potente y resonante que es perfecto para una amplia variedad de estilos musicales, desde el bluegrass hasta el folk. Además, su construcción de alta calidad y su atención al detalle hacen que sea una guitarra duradera y fiable que resistirá el paso del tiempo."
-    }
-  ]
+  "id": 4,
+  "nombre": "Martin D-28",
+  "tipo": "Acústica",
+  "marca": "Martin",
+  "imagen": "#4",
+  "descripcion_completa": "La Martin D-28 es una guitarra acústica icónica que ha sido utilizada por músicos de todo el mundo durante décadas. Con su cuerpo de dreadnought y una tapa de abeto sólido, la D-28 produce un tono potente y resonante que es perfecto para una amplia variedad de estilos musicales, desde el bluegrass hasta el folk. Además, su construcción de alta calidad y su atención al detalle hacen que sea una guitarra duradera y fiable que resistirá el paso del tiempo."
 }

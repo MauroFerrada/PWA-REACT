@@ -13,7 +13,7 @@ const router = createBrowserRouter([
     path: ROUTES.details+":id",
     element: <Details />,
   },
-])
+]);
 
 function App() {
   return (
@@ -21,6 +21,6 @@ function App() {
       <RouterProvider router={router}/>
     </div>
   );
-}
+};
 
 export default App;
