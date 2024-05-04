@@ -10,10 +10,11 @@ const Header = () => {
   };
 
   return (
-    <div className='p-6 bg-emerald-500'>
+    <div className='p-6 bg-emerald-700'>
         <div className="flex h-6">
-          <button className="flex space-x-1" onClick={onClickDetailsHandler}>
-            <img className="h-full" src={logo} alt="logo"></img> <div>Ir a Home</div>
+          <button className="flex flex-row gap-1 hover:bg-emerald-800 rounded-lg" onClick={onClickDetailsHandler}>
+            <img className="h-full" src={logo} alt="logo"></img>
+            <div>Ir al Home</div>
           </button>
         </div>
     </div>

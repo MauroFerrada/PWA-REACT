@@ -56,7 +56,7 @@ const Home = () => {
   return (
     <div className={"flex flex-col min-h-screen"}>
       <Header />
-      <div className={`flex-grow bg-emerald-300`}>
+      <div className={"flex-grow bg-emerald-500"}>
         <div className="flex flex-col justify-center items-center my-4">
           <input
             type="text"
@@ -75,12 +75,12 @@ const Home = () => {
             <div className="flex flex-wrap gap-5 justify-center m-4">
               {searchResults.map((guitarra) => (
                 <button key={guitarra.id} onClick={() => navigate(ROUTES.details + guitarra.id)}>
-                  <div className="max-w-sm rounded overflow-hidden shadow-lg border-2 border-black">
+                  <div className="max-w-sm rounded-lg overflow-hidden shadow-lg border border-emerald-950">
                     <img className="w-full h-auto" src={guitarra.imagen} alt={guitarra.nombre} />
                     <div className="font-bold text-xl pt-2">{guitarra.nombre}</div>
                     <div className="px-6 py-2">
-                      <p className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2"><b>Tipo:</b> {guitarra.tipo}</p>
-                      <p className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2"><b>Marca:</b> {guitarra.marca}</p>
+                      <p className="inline-block bg-emerald-800 rounded-full px-3 py-1 text-sm font-semibold text-slate-200 mr-2 mb-2"><b>Tipo:</b> {guitarra.tipo}</p>
+                      <p className="inline-block bg-emerald-800 rounded-full px-3 py-1 text-sm font-semibold text-slate-200 mr-2 mb-2"><b>Marca:</b> {guitarra.marca}</p>
                     </div>
                   </div>
                 </button>
