@@ -3,6 +3,6 @@
   "nombre": "Epiphone Hummingbird",
   "tipo": "Acústica",
   "marca": "Epiphone",
-  "imagen": "#6",
-  "descripcion_completa": "La Epiphone Hummingbird es una guitarra acústica clásica que ha sido utilizada por músicos de todos los géneros durante décadas. Con su cuerpo de dreadnought y una tapa de abeto sólido, la Hummingbird produce un tono cálido y resonante que es perfecto para tocar en casa o en el escenario. Además, su diseño llamativo y su atención al detalle hacen que sea una guitarra que destaca tanto visual como auditivamente."
+  "imagen": "../img/6.jpg",
+  "descripcion": "La Epiphone Hummingbird es una guitarra acústica clásica que ha sido utilizada por músicos de todos los géneros durante décadas. Con su cuerpo de dreadnought y una tapa de abeto sólido, la Hummingbird produce un tono cálido y resonante que es perfecto para tocar en casa o en el escenario. Además, su diseño llamativo y su atención al detalle hacen que sea una guitarra que destaca tanto visual como auditivamente."
 }

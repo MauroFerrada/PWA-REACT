@@ -1,5 +1,3 @@
-import style from './Footer.module.css';
-
 const Footer = () => {
   return (
     <div className="py-6 bg-emerald-400">

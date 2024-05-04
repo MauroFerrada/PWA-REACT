@@ -3,6 +3,6 @@
   "nombre": "Fender Stratocaster",
   "tipo": "Eléctrica",
   "marca": "Fender",
-  "imagen": "#1",
-  "descripcion_completa": "La Fender Stratocaster es una de las guitarras eléctricas más icónicas de todos los tiempos. Introducida en 1954, ha sido utilizada por innumerables músicos en una amplia gama de géneros musicales, desde el rock hasta el blues y el pop. Con su diseño de cuerpo sólido, tres pastillas single-coil y un vibrato característico, la Stratocaster ofrece una versatilidad excepcional y un sonido distintivo que ha definido el sonido de la música popular durante décadas."
+  "imagen": "../img/1.jpg",
+  "descripcion": "La Fender Stratocaster es una de las guitarras eléctricas más icónicas de todos los tiempos. Introducida en 1954, ha sido utilizada por innumerables músicos en una amplia gama de géneros musicales, desde el rock hasta el blues y el pop. Con su diseño de cuerpo sólido, tres pastillas single-coil y un vibrato característico, la Stratocaster ofrece una versatilidad excepcional y un sonido distintivo que ha definido el sonido de la música popular durante décadas."
 }

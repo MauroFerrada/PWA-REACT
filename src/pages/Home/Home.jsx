@@ -3,7 +3,6 @@ import Header from "../../components/Header/Header";
 import Footer from "../../components/Footer/Footer";
 import { useNavigate } from "react-router-dom";
 import { ROUTES } from "../../const/routes";
-import style from "./Home.module.css";
 
 function removeAccents(text) {
   return text
@@ -42,12 +41,10 @@ const Home = () => {
       const nombre = removeAccents(guitarra.nombre.toLowerCase());
       const tipo = removeAccents(guitarra.tipo.toLowerCase());
       const marca = removeAccents(guitarra.marca.toLowerCase());
-      const descripcion = removeAccents(guitarra.descripcion_breve.toLowerCase());
       return (
         nombre.includes(query) ||
         tipo.includes(query) ||
-        marca.includes(query) ||
-        descripcion.includes(query)
+        marca.includes(query)
       );
     });
     setSearchResults(filteredResults);
@@ -57,46 +54,40 @@ const Home = () => {
   };
 
   return (
-    <div className={`h-screen w-full flex flex-col ${style.homeContainer}`}>
+    <div className={"flex flex-col min-h-screen"}>
       <Header />
-      <div className={`flex-grow bg-emerald-300 ${style.content}`}>
-        <div className="flex h-full justify-center items-center flex-col">
+      <div className={`flex-grow bg-emerald-300`}>
+        <div className="flex flex-col justify-center items-center my-4">
           <input
             type="text"
             placeholder="Buscar..."
             value={searchQuery}
             onChange={handleSearchInputChange}
-            className={style.searchInput}
+            className="p-1 w-1/2"
           />
-          {noResults ? ( // Mostrar mensaje si no se encontraron resultados
-            <p className="text-red-500">No se encontraron resultados para su búsqueda.</p>
-          ) : (
-            searchResults.map((guitarra) => (
-              <button
-                key={guitarra.id}
-                onClick={() => navigate(ROUTES.details + guitarra.id)}
-              >
-                <div className="border-2 border-black">
-                  <p>
-                    <b>Nombre:</b> {guitarra.nombre}
-                  </p>
-                  <p>
-                    <b>Tipo:</b> {guitarra.tipo}
-                  </p>
-                  <p>
-                    <b>Marca:</b> {guitarra.marca}
-                  </p>
-                  <p>
-                    <b>Imágen:</b> {guitarra.imagen}
-                  </p>
-                  <p>
-                    <b>Descripción:</b> {guitarra.descripcion_breve}
-                  </p>
-                </div>
-              </button>
-            ))
-          )}
         </div>
+        { noResults ? 
+          ( // Mostrar mensaje si no se encontraron resultados
+            <div className="flex flex-col justify-center items-center my-4 text-red-500">
+              No se encontraron resultados para su búsqueda.
+            </div>
+          ) : (
+            <div className="flex flex-wrap gap-5 justify-center m-4">
+              {searchResults.map((guitarra) => (
+                <button key={guitarra.id} onClick={() => navigate(ROUTES.details + guitarra.id)}>
+                  <div className="max-w-sm rounded overflow-hidden shadow-lg border-2 border-black">
+                    <img className="w-full h-auto" src={guitarra.imagen} alt={guitarra.nombre} />
+                    <div className="font-bold text-xl pt-2">{guitarra.nombre}</div>
+                    <div className="px-6 py-2">
+                      <p className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2"><b>Tipo:</b> {guitarra.tipo}</p>
+                      <p className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2"><b>Marca:</b> {guitarra.marca}</p>
+                    </div>
+                  </div>
+                </button>
+              ))}
+            </div>
+          )
+        }
       </div>
       <Footer />
     </div>

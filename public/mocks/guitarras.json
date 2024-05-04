@@ -1,50 +1,44 @@
 [
   {
     "id": 1,
-    "nombre": "Fender Stratocaster",
+    "nombre": "Stratocaster",
     "tipo": "Eléctrica",
     "marca": "Fender",
-    "imagen": "#1",
-    "descripcion_breve": "La Fender Stratocaster es un icono del rock 'n' roll, conocida por su versatilidad y sonido distintivo."
+    "imagen": "../img/1.jpg"
   },
   {
     "id": 2,
-    "nombre": "Gibson Les Paul",
+    "nombre": "Les Paul",
     "tipo": "Eléctrica",
     "marca": "Gibson",
-    "imagen": "#2",
-    "descripcion_breve": "La Gibson Les Paul es una guitarra eléctrica emblemática, conocida por su cuerpo sólido y tono cálido."
+    "imagen": "../img/2.jpg"
   },
   {
     "id": 3,
-    "nombre": "Taylor 214ce",
+    "nombre": "214ce",
     "tipo": "Acústica",
     "marca": "Taylor",
-    "imagen": "#3",
-    "descripcion_breve": "La Taylor 214ce es una guitarra acústica versátil, ideal para actuaciones en vivo y grabaciones."
+    "imagen": "../img/3.jpg"
   },
   {
     "id": 4,
-    "nombre": "Martin D-28",
+    "nombre": "D-28",
     "tipo": "Acústica",
     "marca": "Martin",
-    "imagen": "#4",
-    "descripcion_breve": "La Martin D-28 es una guitarra acústica clásica, conocida por su tono potente y proyección."
+    "imagen": "../img/4.jpg"
   },
   {
     "id": 5,
-    "nombre": "Ibanez RG550",
+    "nombre": "RG550",
     "tipo": "Eléctrica",
     "marca": "Ibanez",
-    "imagen": "#5",
-    "descripcion_breve": "La Ibanez RG550 es una guitarra eléctrica de alta gama, conocida por su diseño ergonómico y versatilidad."
+    "imagen": "../img/5.jpg"
   },
   {
     "id": 6,
-    "nombre": "Epiphone Hummingbird",
+    "nombre": "Hummingbird",
     "tipo": "Acústica",
     "marca": "Epiphone",
-    "imagen": "#6",
-    "descripcion_breve": "La Epiphone Hummingbird es una guitarra acústica clásica, conocida por su diseño llamativo y tono cálido."
+    "imagen": "../img/6.jpg"
   }
 ]

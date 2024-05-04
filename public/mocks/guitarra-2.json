@@ -3,6 +3,6 @@
   "nombre": "Gibson Les Paul",
   "tipo": "Eléctrica",
   "marca": "Gibson",
-  "imagen": "#2",
-  "descripcion_completa": "La Gibson Les Paul es una de las guitarras eléctricas más influyentes jamás creadas. Introducida en 1952, se ha convertido en un símbolo del rock 'n' roll y ha sido utilizada por innumerables músicos famosos. Con su cuerpo sólido y pastillas humbucker, la Les Paul ofrece un tono cálido y potente que es perfecto para una amplia variedad de estilos musicales, desde el blues hasta el hard rock."
+  "imagen": "../img/2.jpg",
+  "descripcion": "La Gibson Les Paul es una de las guitarras eléctricas más influyentes jamás creadas. Introducida en 1952, se ha convertido en un símbolo del rock 'n' roll y ha sido utilizada por innumerables músicos famosos. Con su cuerpo sólido y pastillas humbucker, la Les Paul ofrece un tono cálido y potente que es perfecto para una amplia variedad de estilos musicales, desde el blues hasta el hard rock."
 }

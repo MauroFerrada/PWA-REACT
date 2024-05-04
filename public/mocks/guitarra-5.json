@@ -3,6 +3,6 @@
   "nombre": "Ibanez RG550",
   "tipo": "Eléctrica",
   "marca": "Ibanez",
-  "imagen": "#5",
-  "descripcion_completa": "La Ibanez RG550 es una guitarra eléctrica de alta gama diseñada para músicos que buscan un rendimiento excepcional y una versatilidad sin igual. Con su cuerpo de tilo, mástil de arce y diapasón de palisandro, la RG550 ofrece una jugabilidad suave y cómoda en todo el mástil. Además, sus pastillas humbucker y single-coil proporcionan una amplia gama de tonos, desde el rock duro hasta el jazz fusión."
+  "imagen": "../img/5.jpg",
+  "descripcion": "La Ibanez RG550 es una guitarra eléctrica de alta gama diseñada para músicos que buscan un rendimiento excepcional y una versatilidad sin igual. Con su cuerpo de tilo, mástil de arce y diapasón de palisandro, la RG550 ofrece una jugabilidad suave y cómoda en todo el mástil. Además, sus pastillas humbucker y single-coil proporcionan una amplia gama de tonos, desde el rock duro hasta el jazz fusión."
 }
