@@ -23,7 +23,7 @@ const Details = () => {
   return (
     <div className="h-screen w-full flex flex-col">
       <Header text="Header" />
-      <div className="flex-grow bg-emerald-400">
+      <div className="flex-grow bg-emerald-500">
         <div className="flex h-full justify-center items-center p-5">
           <div className="flex flex-col items-center border border-emerald-950 rounded-lg shadow md:flex-row bg-emerald-950 p-4">
             <img className="object-cover md:h-full rounded-lg md:w-48 md:rounded-lg" src={guitarra.imagen} alt={guitarra.nombre} />

@@ -1,10 +1,12 @@
 # :computer: PWA 2024
 
-- **Trabajo Práctico: React**
+- **Trabajo Práctico 2: React**
 
-> 
+> :guitar: **Dominio elegido:** Guitarras.
 
-![](/public/)
+> En este proyecto se desarrolló una aplicación web utilizando React, implementando React Router para la navegación entre páginas, llamadas fetch para obtener datos de archivos locales JSON, y Tailwind CSS para estilizar la interfaz. La aplicación permite a los usuarios explorar una lista de elementos presentados en forma de tarjetas en la página de inicio, con la capacidad de ver detalles adicionales de cada elemento en una página separada al hacer clic en ellos. También se implemento una barra de búsqueda que filtra los elementos en las diferentes tarjetas visualizadas en la página principal.
+
+![app-guitarras](./public/img/app.jpg)
 
 ## :office: Universidad Nacional del Comahue - Facultad de Informática
 
@@ -12,7 +14,7 @@
 - **Materia:** Programación Web Avanzada
 - **Año:** 2024
 
-## :muscle: Integrantes del Equipo
+## :muscle: Integrantes (Grupo 8)
 
 | Nombre                              |  Legajo    | Mail                                     | GitHub                                                      |
 |:-----------------------------------:|:----------:|:----------------------------------------:|:-----------------------------------------------------------:|
