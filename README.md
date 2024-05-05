@@ -2,11 +2,13 @@
 
 - **Trabajo Práctico 2: React**
 
-> :guitar: **Dominio elegido:** Guitarras.
+- :guitar: **Dominio elegido:** Guitarras.
 
-> En este proyecto se desarrolló una aplicación web utilizando React, implementando React Router para la navegación entre páginas, llamadas fetch para obtener datos de archivos locales JSON, y Tailwind CSS para estilizar la interfaz. La aplicación permite a los usuarios explorar una lista de elementos presentados en forma de tarjetas en la página de inicio, con la capacidad de ver detalles adicionales de cada elemento en una página separada al hacer clic en ellos. También se implemento una barra de búsqueda que filtra los elementos en las diferentes tarjetas visualizadas en la página principal.
+> En este proyecto se desarrolló una aplicación web utilizando [React](https://es.react.dev/), implementando [React Router](https://reactrouter.com/en/main) para la navegación entre páginas, llamadas fetch para obtener datos de archivos locales JSON, y [Tailwind CSS](https://tailwindcss.com/) para estilizar la interfaz. La aplicación permite a los usuarios explorar una lista de elementos presentados en forma de tarjetas en la página de inicio, con la capacidad de ver detalles adicionales de cada elemento en una página separada al hacer clic en ellos. También se implemento una barra de búsqueda que filtra los elementos en las diferentes tarjetas visualizadas en la página principal.
 
-![app-guitarras](./public/img/app.jpg)
+> Como trabajo adicional, se implemento [React Pdf](https://react-pdf.org/) para la generación de un documento PDF a partir de la información mostrada en la página de detalles de cada artículo.
+
+![app-guitarras](./public/img/appGuitar.jpg)
 
 ## :office: Universidad Nacional del Comahue - Facultad de Informática
 
